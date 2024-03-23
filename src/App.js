@@ -1,8 +1,11 @@
-import { dividerClasses } from "@mui/material"
+import { Navbar } from "./components"
+
+import "./index.scss"
+
 
 const App = () => (
     <div>
-        <section>Hero</section>
+        <section><Navbar /></section>
         <section>Parallax</section>
         <section>Services</section>
         <section>Parallax</section>
